@@ -12,7 +12,7 @@ def main():
     
     # Parse arguments
     args = parser.parse_args()
-    input_path = args.file if args.file else 'input.mp4'
+    input_path = args.file if args.file else 'example.mp4'
     num_loops = args.loops if args.loops else 5
     
     # Create output directory
