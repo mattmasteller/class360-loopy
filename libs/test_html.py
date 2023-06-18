@@ -45,5 +45,5 @@ def create_html(input_path, video_path, num_loops=5):
         
     html += "</body>\n</html>"
     
-    with open(f"{output_path}/output.html", "w") as file:
+    with open(f"{output_path}/index.html", "w") as file:
         file.write(html)
