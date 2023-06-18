@@ -1,0 +1,13 @@
+# Background Removal
+av
+torch
+torchvision
+tqdm
+pims
+
+# Loop Detection
+opencv-python-headless
+ImageHash
+scipy
+imageio[ffmpeg]
+scikit-image
