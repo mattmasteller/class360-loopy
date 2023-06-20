@@ -38,7 +38,7 @@ def create_html(input_path, video_path, num_loops=5):
         loop_path = f"{output_path}/loop_{i}.webm"
         if os.path.exists(loop_path):
             html += f'<h2>{os.path.basename(loop_path)} ({get_file_size_in_mb(loop_path)} MB)</h2>\n'
-            html += '<video width="800" height="450" loop autoplay muted>\n'
+            html += '<video width="800" height="450" loop autoplay muted playsinline>\n'
             html += f'<source src="loop_{i}.webm" type="video/webm">\n'
             html += "Your browser does not support the video tag.\n"
             html += "</video>\n<br/>\n"
